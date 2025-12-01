@@ -1,5 +1,4 @@
 # Machine-Learning-with-Spark-Streaming
-# Machine-Learning with Spark Streaming 🚀
 
 Real-time (and batch) ML processing on streaming data using Apache Spark
 
@@ -32,7 +31,7 @@ Many real-world applications — e.g. fraud detection, anomaly detection, live p
 
 This project aims to bridge that gap by:  
 - Demonstrating how streaming data ingestion and real-time processing can feed ML workflows.  
-- Showing an end-to-end pipeline: data ingestion → preprocessing → feature engineering → modeling → visualization (or saving).  
+- Showing an end-to-end pipeline: data ingestion → preprocessing → feature engineering → modeling → visualization 
 - Serving as a template for users who want to build their own real-time ML + streaming applications using Apache Spark.
 
 ## Key Features
@@ -40,23 +39,23 @@ This project aims to bridge that gap by:
 - Support for real-time streaming data ingestion (e.g. from CSV streams, socket streams, potentially other sources)  
 - Integration with ML model training & inference: works with both batch and streaming workflows  
 - Data preprocessing, feature engineering, and data transformations  
-- Model persistence (training → saving → loading) and evaluation  
 - Optional plotting / visualization of results (e.g. data distributions, model predictions over time)  
 
 ## Tech Stack & Dependencies
 
 - Apache Spark (Streaming or Structured Streaming) — core engine for stream & batch processing  
-- Python (assumes PySpark or appropriate Spark-Python integration); you may optionally use Scala/Java depending on your preference  
+- Python (assumes PySpark or appropriate Spark-Python integration);   
 - ML libraries: e.g. Spark MLlib, scikit-learn (or whichever you use for model training)  
-- (Optional) Plotting / visualization libraries: e.g. matplotlib, seaborn, folium, squarify — useful if you provide charts or maps  
-- A `requirements.txt` (or `environment.yml`) file to manage Python dependencies for reproducibility  
+- (Optional) Plotting / visualization libraries: e.g. matplotlib, seaborn, folium, squarify — useful if you provide charts or maps
+  
 
 ## Setup & Installation
+spark should be installed  
 
 1. Clone this repository:  
-   ```bash
-   git clone https://github.com/achyutjagini/Machine-Learning-with-Spark-Streaming.git
-   cd Machine-Learning-with-Spark-Streaming
+
+git clone https://github.com/achyutjagini/Machine-Learning-with-Spark-Streaming.git
+cd Machine-Learning-with-Spark-Streaming
 
 
 
