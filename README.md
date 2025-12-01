@@ -23,7 +23,7 @@ Real-time (and batch) ML processing on streaming data using Apache Spark
 
 This project demonstrates how to build real-time (or micro-batch) machine learning pipelines using Apache Spark Streaming (or Structured Streaming). It shows how streaming data can be processed, transformed, and fed into ML models — combining streaming, batch and ML paradigms to enable real-time data-driven insights.
 
-It uses a sample dataset (for example, “crime classification” data) to showcase ingestion of streaming or incremental data, data preprocessing, feature extraction, model training & inference, and optional visualization of results.
+It uses a sample dataset ( “crime classification” data) to showcase ingestion of streaming or incremental data, data preprocessing, feature extraction, model training & inference, and optional visualization of results.
 
 ## Motivation & Problem Statement
 
@@ -36,7 +36,7 @@ This project aims to bridge that gap by:
 
 ## Key Features
 
-- Support for real-time streaming data ingestion (e.g. from CSV streams, socket streams, potentially other sources)  
+- Support for real-time streaming data ingestion
 - Integration with ML model training & inference: works with both batch and streaming workflows  
 - Data preprocessing, feature engineering, and data transformations  
 - Optional plotting / visualization of results (e.g. data distributions, model predictions over time)  
